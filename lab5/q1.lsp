@@ -1,0 +1,6 @@
+(println "Lab 5: task 1")
+(define (rw str part repl)
+    (replace part str repl)
+)
+(println (rw "абракадабра" "б" "ку"))
+(exit 0)
